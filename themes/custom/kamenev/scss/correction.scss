@@ -1,13 +1,19 @@
 /* maine's page The logo   -  start */
-.main-logo{
-	margin-left:   initial;
-	margin-top: 112px;
 
-}
-.menu-icon{
-	margin-top: 18px;
-    background-color: #0000006b;
-    box-shadow: 0 0 35px;
+
+.one-sidebar,
+.no-sidebar{
+	& .main-logo{
+		margin-left:   initial;
+		margin-top: 112px;
+
+	}
+
+	& .menu-icon{
+		margin-top: 18px;
+	    background-color: #0000006b;
+	    box-shadow: 0 0 35px;
+	}
 }
 
 /* maine's page The logo   -  finish */
@@ -110,6 +116,12 @@
 	}
 }
 /* The portfolio name this of page. Bacground-imege style -finish */
+
+/* the gallery from the Node of page - start */
+
+
+
+/* the gallery from the Node of page - finish */
 
 @media screen and ( min-width: 767.5px){
 	/*  The about name page. Block the footer menu location -  start  */

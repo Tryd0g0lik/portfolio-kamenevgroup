@@ -1,12 +1,14 @@
 /* maine's page The logo   -  start */
-/* line 2, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
-.main-logo {
+/* line 6, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.one-sidebar .main-logo,
+.no-sidebar .main-logo {
   margin-left: initial;
   margin-top: 112px;
 }
 
-/* line 7, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
-.menu-icon {
+/* line 12, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.one-sidebar .menu-icon,
+.no-sidebar .menu-icon {
   margin-top: 18px;
   background-color: #0000006b;
   -webkit-box-shadow: 0 0 35px;
@@ -15,14 +17,14 @@
 
 /* maine's page The logo   -  finish */
 /* -- END OUTPUT from.  Block name has the work-dwetalis  -  start */
-/* line 16, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 22, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .work-details {
   bottom: 91px;
 }
 
 /* -- END OUTPUT from.  Block name has the work-dwetalis  -  finish */
 /* The about name page. Block the footer menu location -  start   */
-/* line 22, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 28, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .footer-wrapper {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -33,7 +35,7 @@
           align-items: center;
 }
 
-/* line 27, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 33, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .footer-menu {
   display: -ms-grid;
   display: grid;
@@ -71,7 +73,7 @@
   -ms-grid-column: 5;
 }
 
-/* line 37, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 43, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .footer-menu > button:first-child {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
@@ -82,7 +84,7 @@
   margin-bottom: initial;
 }
 
-/* line 44, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 50, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .footer-menu > ul:nth-child(2) {
   -ms-grid-column: 1;
   -ms-grid-column-span: 1;
@@ -92,7 +94,7 @@
   grid-row: 2  /  3;
 }
 
-/* line 48, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 54, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .footer-menu > ul:nth-child(3) {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
@@ -102,7 +104,7 @@
   grid-row: 2  /  3;
 }
 
-/* line 52, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 58, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .footer-menu > ul:nth-child(4) {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
@@ -112,24 +114,24 @@
   grid-row: 2  /  3;
 }
 
-/* line 59, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 65, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .footer-menu > button:first-child,
 .footer-menu > ul {
   width: initial;
 }
 
-/* line 64, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 70, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .footer-menu > ul {
   padding-top: 5px;
 }
 
-/* line 70, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 76, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .footer-menu .footer-menu-list > li a {
   line-height: 16px;
   font-size: 12px;
 }
 
-/* line 78, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 84, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .location {
   width: initial;
 }
@@ -137,7 +139,7 @@
 /*  The about name page. Block the footer menu location-  finish   */
 @media screen and (min-width: 575.5px) {
   /*  The about name page. Block the footer menu location -  start   */
-  /* line 90, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 96, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-menu .footer-menu-list > li a {
     line-height: 26px;
     font-size: initial;
@@ -146,15 +148,17 @@
 }
 
 /* The portfolio name this of page. Bacground-imege style -start */
-/* line 104, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+/* line 110, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .swiper-slide > div {
   height: inherit;
 }
 
 /* The portfolio name this of page. Bacground-imege style -finish */
+/* the gallery from the Node of page - start */
+/* the gallery from the Node of page - finish */
 @media screen and (min-width: 767.5px) {
   /*  The about name page. Block the footer menu location -  start  */
-  /* line 116, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 128, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -164,11 +168,11 @@
         -ms-flex-align: start;
             align-items: start;
   }
-  /* line 120, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 132, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-menu {
     display: initial;
   }
-  /* line 128, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 140, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-menu .footer-menu-list > li a {
     line-height: 18px;
     font-size: 14px;
