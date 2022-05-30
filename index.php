@@ -52,7 +52,7 @@
         <link rel="stylesheet" media="all" href="https://kamenevgroup.com/core/themes/stable/css/core/normalize-fixes.css" />
         <link rel="stylesheet" media="all" href="https://kamenevgroup.com/themes/custom/kamenev/css/swiper-bundle.min.css" />
         <link rel="stylesheet" media="all" href="https://kamenevgroup.com/themes/custom/kamenev/css/style-main.css" />
-        <link rel="stylesheet" media="all" href="https://kamenevgroup:9500/themes/custom/kamenev/css/correction.css" />
+
 
 
  </head>

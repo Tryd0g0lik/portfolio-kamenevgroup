@@ -1,12 +1,32 @@
+/* maine's page The logo   -  start */
+.main-logo{
+	margin-left:   initial;
+	margin-top: 112px;
 
+}
+.menu-icon{
+	margin-top: 18px;
+    background-color: #0000006b;
+    box-shadow: 0 0 35px;
+}
+
+/* maine's page The logo   -  finish */
+
+/* -- END OUTPUT from.  Block name has the work-dwetalis  -  start */
+	.work-details{
+		bottom:  91px;
+	}
+
+/* -- END OUTPUT from.  Block name has the work-dwetalis  -  finish */
 /* footer menu location -  start   */
 .footer-wrapper{
 	flex-direction: column;
+	align-items:   center;
 }
 
 .footer-menu{
 	display: grid;
-	grid-template-columns:  1fr 1fr 1fr 1fr;
+	grid-template-columns:  1fr 1fr 1fr;
 	grid-template-rows: 62px 1fr;
 	column-gap:  10px;
 
@@ -15,7 +35,7 @@
 	width: initial;
 
 	& > button:first-child{
-		grid-column:    1   /   5;
+		grid-column:    1   /   4;
 		grid-row:   1   /   2;
 		margin-bottom: initial;
 
@@ -30,7 +50,7 @@
 		grid-row:   2  /  3;
 	}
 	&  >  ul:nth-child(4){
-		grid-column:   3  /  5;
+		grid-column:   3  /  4;
 		grid-row:   2  /  3;
 	}
 
@@ -61,3 +81,45 @@
 }
 
 /* footer menu location -  finish   */
+
+@media screen and (min-width: 575.5px){
+	/* footer menu location -  start   */
+	.footer-menu{
+		& .footer-menu-list{
+		&  >  li{
+			&  a{
+				line-height:   26px;
+				font-size:  initial;
+				}
+			}
+		}
+	}
+
+	/* footer menu location -  finish   */
+
+}
+
+@media screen and ( min-width: 767.5px){
+	/* footer menu location -  start  */
+	.footer-wrapper{
+		flex-direction: row;
+		align-items: start;
+	}
+	.footer-menu{
+		display: initial;
+
+	}
+
+	.footer-menu{
+		& .footer-menu-list{
+		&  >  li{
+			&  a{
+				line-height:   18px;
+				font-size:  14px;
+				letter-spacing:   2px;
+				}
+			}
+		}
+	}
+	/* footer menu location -  finish   */
+}
