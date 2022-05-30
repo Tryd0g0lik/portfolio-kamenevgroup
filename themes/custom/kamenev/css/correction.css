@@ -21,7 +21,7 @@
 }
 
 /* -- END OUTPUT from.  Block name has the work-dwetalis  -  finish */
-/* footer menu location -  start   */
+/* The about name page. Block the footer menu location -  start   */
 /* line 22, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .footer-wrapper {
   -webkit-box-orient: vertical;
@@ -134,20 +134,27 @@
   width: initial;
 }
 
-/* footer menu location -  finish   */
+/*  The about name page. Block the footer menu location-  finish   */
 @media screen and (min-width: 575.5px) {
-  /* footer menu location -  start   */
+  /*  The about name page. Block the footer menu location -  start   */
   /* line 90, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-menu .footer-menu-list > li a {
     line-height: 26px;
     font-size: initial;
   }
-  /* footer menu location -  finish   */
+  /*  The about name page. Block the footer menu location -  finish   */
 }
 
+/* The portfolio name this of page. Bacground-imege style -start */
+/* line 104, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.swiper-slide > div {
+  height: inherit;
+}
+
+/* The portfolio name this of page. Bacground-imege style -finish */
 @media screen and (min-width: 767.5px) {
-  /* footer menu location -  start  */
-  /* line 104, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /*  The about name page. Block the footer menu location -  start  */
+  /* line 116, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -157,15 +164,15 @@
         -ms-flex-align: start;
             align-items: start;
   }
-  /* line 108, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 120, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-menu {
     display: initial;
   }
-  /* line 116, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 128, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-menu .footer-menu-list > li a {
     line-height: 18px;
     font-size: 14px;
     letter-spacing: 2px;
   }
-  /* footer menu location -  finish   */
+  /*  The about name page. Block the footer menu location -  finish   */
 }
