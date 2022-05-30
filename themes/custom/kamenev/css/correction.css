@@ -1,0 +1,119 @@
+/* footer menu location -  start   */
+/* line 3, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.footer-wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+/* line 7, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.footer-menu {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 62px 1fr;
+  grid-template-rows: 62px 1fr;
+  -webkit-column-gap: 10px;
+     -moz-column-gap: 10px;
+          column-gap: 10px;
+  width: initial;
+}
+.footer-menu > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.footer-menu > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.footer-menu > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+.footer-menu > *:nth-child(4) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 7;
+}
+.footer-menu > *:nth-child(5) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+}
+.footer-menu > *:nth-child(6) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+}
+.footer-menu > *:nth-child(7) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 5;
+}
+.footer-menu > *:nth-child(8) {
+  -ms-grid-row: 2;
+  -ms-grid-column: 7;
+}
+
+/* line 17, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.footer-menu > button:first-child {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 4;
+  grid-column: 1   /   5;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1   /   2;
+  margin-bottom: initial;
+}
+
+/* line 24, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.footer-menu > ul:nth-child(2) {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1  /  2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2  /  3;
+}
+
+/* line 28, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.footer-menu > ul:nth-child(3) {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2  /  3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2  /  3;
+}
+
+/* line 32, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.footer-menu > ul:nth-child(4) {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-column: 3  /  5;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2  /  3;
+}
+
+/* line 39, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.footer-menu > button:first-child,
+.footer-menu > ul {
+  width: initial;
+}
+
+/* line 44, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.footer-menu > ul {
+  padding-top: 5px;
+}
+
+/* line 50, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.footer-menu .footer-menu-list > li a {
+  line-height: 16px;
+  font-size: 12px;
+}
+
+/* line 58, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.location {
+  width: initial;
+}
+
+/* footer menu location -  finish   */
