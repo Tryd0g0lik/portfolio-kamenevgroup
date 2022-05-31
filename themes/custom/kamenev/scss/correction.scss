@@ -6,7 +6,7 @@
 .one-sidebar,
 .no-sidebar{
 	& .main-logo{
-		margin-left:   initial;
+		margin: 113px auto 0 auto;
 		margin-top: 112px;
 
 	}
@@ -38,7 +38,7 @@
 
 /* -- END OUTPUT from.  Block name has the work-dwetalis  -  start */
 	.work-details{
-		bottom:  91px;
+		bottom:  140px;
 	}
 
 /* -- END OUTPUT from.  Block name has the work-dwetalis  -  finish */
@@ -143,6 +143,9 @@ iframe{
 
 		}
 
+	}
+	& > div.work-details{
+		height:   auto;
 	}
 }
 /* The portfolio name this of page. Bacground-imege style -finish */

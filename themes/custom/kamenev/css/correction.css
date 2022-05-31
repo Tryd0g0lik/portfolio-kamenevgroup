@@ -2,7 +2,7 @@
 /* line 8, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .one-sidebar .main-logo,
 .no-sidebar .main-logo {
-  margin-left: initial;
+  margin: 113px auto 0 auto;
   margin-top: 112px;
 }
 
@@ -29,7 +29,7 @@
 /* -- END OUTPUT from.  Block name has the work-dwetalis  -  start */
 /* line 40, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
 .work-details {
-  bottom: 91px;
+  bottom: 140px;
 }
 
 /* -- END OUTPUT from.  Block name has the work-dwetalis  -  finish */
@@ -173,12 +173,17 @@ iframe {
   height: inherit;
 }
 
+/* line 147, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+.swiper-slide > div.work-details {
+  height: auto;
+}
+
 /* The portfolio name this of page. Bacground-imege style -finish */
 /* the gallery from the Node of page - start */
 /* the gallery from the Node of page - finish */
 @media screen and (min-width: 767.5px) {
   /*  The about name page. Block the footer menu location -  start  */
-  /* line 158, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 161, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -188,11 +193,11 @@ iframe {
         -ms-flex-align: start;
             align-items: start;
   }
-  /* line 162, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 165, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-menu {
     display: initial;
   }
-  /* line 170, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 173, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-menu .footer-menu-list > li a {
     line-height: 18px;
     font-size: 14px;
