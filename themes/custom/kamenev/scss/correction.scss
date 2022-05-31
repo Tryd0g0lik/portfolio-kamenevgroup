@@ -1,3 +1,5 @@
+
+
 /* maine's page The logo   -  start */
 
 
@@ -11,8 +13,24 @@
 
 	& .menu-icon{
 		margin-top: 18px;
-	    background-color: #0000006b;
-	    box-shadow: 0 0 35px;
+// 	    background-color: #0000006b;
+// 	    box-shadow: 0 0 35px;
+	}
+}
+.page-catalog.one-sidebar,
+.page-contacts.one-sidebar,
+.page-e.one-sidebar,
+.page-masters.one-sidebar,
+.section-news.one-sidebar,
+.page-news.one-sidebar,
+.page-partners.one-sidebar,
+.section-partners.one-sidebar,
+.section-node.one-sidebar
+{
+	&   .menu-icon{
+		margin-top: initial;
+// 		background-color: initial;
+// 		box-shadow: initial;
 	}
 }
 
@@ -87,6 +105,18 @@
 }
 
 /*  The about name page. Block the footer menu location-  finish   */
+
+
+/* The Masters name page. Block the iframe - start */
+iframe{
+	display: inline-block;
+	width: 100%;
+	height: outo;
+	overflow:   hidden;
+}
+
+/* The Masters name page. Block the iframe - finish */
+
 
 @media screen and (min-width: 575.5px){
 	/*  The about name page. Block the footer menu location -  start   */
