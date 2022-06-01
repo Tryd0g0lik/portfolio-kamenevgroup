@@ -1,162 +1,315 @@
 
+@media screen and (max-width: 1200px){
+	/* maine's page The logo   -  start */
 
-/* maine's page The logo   -  start */
 
+	.one-sidebar,
+	.no-sidebar{
+		& .main-logo{
+			margin: 113px auto 0 auto;
+			margin-top: 112px;
 
-.one-sidebar,
-.no-sidebar{
-	& .main-logo{
-		margin: 113px auto 0 auto;
-		margin-top: 112px;
+		}
 
+		& .menu-icon{
+			margin-top: 18px;
+	// 	    background-color: #0000006b;
+	// 	    box-shadow: 0 0 35px;
+		}
 	}
-
-	& .menu-icon{
-		margin-top: 18px;
-// 	    background-color: #0000006b;
-// 	    box-shadow: 0 0 35px;
-	}
-}
-.page-catalog.one-sidebar,
-.page-contacts.one-sidebar,
-.page-e.one-sidebar,
-.page-masters.one-sidebar,
-.section-news.one-sidebar,
-.page-news.one-sidebar,
-.page-partners.one-sidebar,
-.section-partners.one-sidebar,
-.section-node.one-sidebar
-{
-	&   .menu-icon{
-		margin-top: initial;
-// 		background-color: initial;
-// 		box-shadow: initial;
-	}
-}
-
-/* maine's page The logo   -  finish */
-
-/* -- END OUTPUT from.  Block name has the work-dwetalis  -  start */
-	.work-details{
-		bottom:  140px;
-	}
-
-/* -- END OUTPUT from.  Block name has the work-dwetalis  -  finish */
-/* The about name page. Block the footer menu location -  start   */
-.footer-wrapper{
-	flex-direction: column;
-	align-items:   center;
-}
-
-.footer-menu{
-	display: grid;
-	grid-template-columns:  1fr 1fr 1fr;
-	grid-template-rows: 62px 1fr;
-	column-gap:  10px;
-
-
-
-	width: initial;
-
-	& > button:first-child{
-		grid-column:    1   /   4;
-		grid-row:   1   /   2;
-		margin-bottom: initial;
-
-
-	}
-	&  > ul:nth-child(2){
-		grid-column:   1  /  2;
-		grid-row:   2  /  3;
-	}
-	&  >  ul:nth-child(3){
-		grid-column:   2  /  3;
-		grid-row:   2  /  3;
-	}
-	&  >  ul:nth-child(4){
-		grid-column:   3  /  4;
-		grid-row:   2  /  3;
-	}
-
-
-
-	& > button:first-child,
-	& > ul{
-		width: initial;
-
-	}
-	&  > ul{
-		padding-top:   5px;
-	}
-
-	& .footer-menu-list{
-		&  >  li{
-			&  a{
-				line-height:   16px;
-				font-size:  12px;
-			}
+	.page-catalog.one-sidebar,
+	.page-contacts.one-sidebar,
+	.page-e.one-sidebar,
+	.page-masters.one-sidebar,
+	.section-news.one-sidebar,
+	.page-news.one-sidebar,
+	.page-partners.one-sidebar,
+	.section-partners.one-sidebar,
+	.section-node.one-sidebar
+	{
+		&   .menu-icon{
+			margin-top: initial;
+	// 		background-color: initial;
+	// 		box-shadow: initial;
 		}
 	}
 
-}
-.location{
-	width: initial;
+	/* maine's page The logo   -  finish */
 
-}
+	/* -- END OUTPUT from.  Block name has the work-dwetalis  -  start */
+		.work-details{
+			bottom:  140px;
+		}
 
-/*  The about name page. Block the footer menu location-  finish   */
+	/* -- END OUTPUT from.  Block name has the work-dwetalis  -  finish */
+	/* The about name page. Block the footer menu location -  start   */
+	.footer-wrapper{
+		flex-direction: column;
+		align-items:   center;
+	}
 
-
-/* The Masters name page. Block the iframe - start */
-iframe{
-	display: inline-block;
-	width: 100%;
-	height: outo;
-	overflow:   hidden;
-}
-
-/* The Masters name page. Block the iframe - finish */
-
-
-@media screen and (min-width: 575.5px){
-	/*  The about name page. Block the footer menu location -  start   */
 	.footer-menu{
+		display: grid;
+		grid-template-columns:  1fr 1fr 1fr;
+		grid-template-rows: 62px 1fr;
+		column-gap:  10px;
+
+
+
+		width: initial;
+
+		& > button:first-child{
+			grid-column:    1   /   4;
+			grid-row:   1   /   2;
+			margin-bottom: initial;
+
+
+		}
+		&  > ul:nth-child(2){
+			grid-column:   1  /  2;
+			grid-row:   2  /  3;
+		}
+		&  >  ul:nth-child(3){
+			grid-column:   2  /  3;
+			grid-row:   2  /  3;
+		}
+		&  >  ul:nth-child(4){
+			grid-column:   3  /  4;
+			grid-row:   2  /  3;
+		}
+
+
+
+		& > button:first-child,
+		& > ul{
+			width: initial;
+
+		}
+		&  > ul{
+			padding-top:   5px;
+		}
+
 		& .footer-menu-list{
-		&  >  li{
-			&  a{
-				line-height:   26px;
-				font-size:  initial;
+			&  >  li{
+				&  a{
+					line-height:   16px;
+					font-size:  12px;
 				}
 			}
 		}
+
+	}
+	.location{
+		width: initial;
+
 	}
 
-	/*  The about name page. Block the footer menu location -  finish   */
+	/*  The about name page. Block the footer menu location-  finish   */
 
-}
 
-/* The portfolio name this of page. Bacground-imege style -start */
-.swiper-slide{
-	& > div  {
-		height: inherit;
-		& > .swiper-slide__img{
+	/* The Masters name page. Block the iframe - start */
+	iframe{
+		display: inline-block;
+		width: 100%;
+		height: outo;
+		overflow:   hidden;
+	}
 
+	/* The Masters name page. Block the iframe - finish */
+
+
+	@media screen and (min-width: 575.5px){
+		/*  The about name page. Block the footer menu location -  start   */
+		.footer-menu{
+			& .footer-menu-list{
+			&  >  li{
+				&  a{
+					line-height:   26px;
+					font-size:  initial;
+					}
+				}
+			}
 		}
 
+		/*  The about name page. Block the footer menu location -  finish   */
+
 	}
-	& > div.work-details{
-		height:   auto;
+
+	/* The portfolio name this of page. Bacground-imege style -start */
+	.swiper-slide{
+		& > div  {
+			height: inherit;
+			& > .swiper-slide__img{
+
+			}
+
+		}
+		& > div.work-details{
+			height:   auto;
+		}
 	}
+	/* The portfolio name this of page. Bacground-imege style -finish */
+
+	/* the product page - start */
+	.preview{
+		flex-direction: column;
+		z-index: 5;
+	}
+	.options{
+			padding-top:15px;
+	}
+	.options,
+	.preview-pic{
+		width: 100%;
+		z-index: 5;
+	}
+
+	.default__variations{
+	// 	height: 100%;
+		width:   initial;
+		justify-items:  stretch;
+		flex-wrap: wrap;
+		flex-direction: row;
+		row-gap:  15px;
+
+		& div{
+			height:  auto;
+		}
+		&>div{
+			width: 100%;
+
+		}
+		& a{
+			line-height:   20px;
+			font-size:  16px;
+			&:hover{
+				font-size:  18px;
+			}
+		}
+	}
+
+	.product-button-wrap{
+		padding-top:   initial;
+		justify-content:  stretch;
+		width:   100%;;
+	}
+
+	.default__price{
+		line-height:   38px;
+	}
+	.description{
+		top: -53px;
+		right: 20px;
+		height:  50px;
+		z-index: 2;
+	}
+	.open-description{
+		top:  -58px;
+	}
+	.default__tekhnicheskaya-informaciya{
+
+		& article{
+			line-height:   38px;
+		}
+
+		& >div{
+			& > article{
+				width:   100%;
+			}
+		}
+	}
+	.document__media-document{
+		display: flex;
+		flex-direction:   row;
+		flex-wrap:  wrap;
+		justify-items: stretch;
+
+		& :last-child{
+			width:   100%;
+			height:  55px;
+	      margin-right: 60px;
+
+			&:hover{
+
+			}
+			& a:hover{
+				font-size:  17px;
+
+
+			}
+		}
+	}
+	.file--application-pdf {
+		width:100%;
+
+		& a{
+			line-height:   38px;
+
+			&:after{
+				right:   0;
+				top:  -40px;
+
+			}
+		}
+	}
+	.icon-banner{
+		left: 0;
+		z-index: 6;
+	}
+	.icon-banner-item:not(:last-child){
+		margin-right:  1em;
+	}
+
+	.default__soputstvuyuschie{
+		   justify-content: stretch;
+			& > div{
+				width:   100%;
+			}
+			& article{
+			display: grid;
+		   grid-template-columns: 1.5fr 1fr;
+			grid-template-rows: 35px 285px 1fr 40px;
+		   width: initial;
+		   padding: initial;
+	      justify-content: stretch;
+
+			&  > *{
+				grid-column:   1  /  4;
+			}
+
+		   & > *:nth-child(1){
+		      grid-row:   1  /  2;
+		      margin:  initial;
+
+		      & > a{
+		         line-height:   38px;
+		      }
+		   }
+
+		   & > *:nth-child(2){
+		      display: none;
+		   }
+		   & > *:nth-child(3){
+		      grid-row:   3  /  4;
+
+		   }
+		   & > *:nth-child(4){
+
+		      grid-row:   4  /  5;
+		   }
+		   & > *:nth-child(5){
+		      grid-row:   2  /  3;
+		      width:   100%;
+		      justify-items: center;
+		   }
+		}
+	}
+
+
+	/* the product page - finish */
 }
-/* The portfolio name this of page. Bacground-imege style -finish */
 
-/* the gallery from the Node of page - start */
-
-
-
-/* the gallery from the Node of page - finish */
-
-@media screen and ( min-width: 767.5px){
+@media screen and ( min-width: 767.01px){
 	/*  The about name page. Block the footer menu location -  start  */
 	.footer-wrapper{
 		flex-direction: row;
@@ -179,4 +332,132 @@ iframe{
 		}
 	}
 	/*  The about name page. Block the footer menu location -  finish   */
+
+	/* the product page - start */
+	.preview{
+	flex-direction: row;
+	flex-wrap: wrap;
+	}
+	.preview-pic{
+		flex-grow:  0.5;
+		width: 16.3%;
+		padding-top: 25px;
+		height:auto;
+		min-height: 420px;
+
+	}
+
+
+	.default__variations{
+		justify-items: initial;
+		row-gap: initial;
+		width:   100%;
+		& div{
+			height: auto;
+		}
+		& > div{
+			width:   50%;
+		}
+
+		& a {
+			line-height:   45px;
+			font-size:  16px;
+		}
+
+	}
+	.options{
+		width: 68.6%;
+		max-width:  640px;
+		flex-grow: 2;
+	}
+
+	.default__tekhnicheskaya-informaciya{
+	   & > div{
+	     & > article{
+				width:   initial;
+				line-height: 1.4em;
+	     }
+     }
+  }
+
+  .document__media-document{
+   display: block;
+   flex-direction: initial;
+   flex-wrap: initial;
+   justify-items: initial;
+
+   & :last-child{
+      width:   initial;
+      height: initial;
+      margin-right: 0px;
+
+      & a:hover{
+         font-size:  initial;
+
+      }
+   }
+  }
+  .file--application-pdf{
+      & a{
+         width: 304px;
+         height:  30px;
+         margin-right: 0px;
+
+         &:after{
+            right: -61px;
+            top: -6px;
+         }
+      }
+   }
+
+   .description{
+      top: initial;
+      right:   initial;
+      height: initial;
+      x-index: 1;
+   }
+   .default__soputstvuyuschie{
+      justify-content: initial;
+      & > div{
+         width: initial;
+      }
+      & article{
+         display: block;
+         grid-template-columns: initial;
+         grid-template-rows: initial;
+         width: 294px;
+         padding-top: 55px;
+         justify-content: initial;
+         padding-left:  408px;
+			& * {
+				grid-column: initial;
+			}
+         & *:nth-child(1){
+            grid-row: initial;
+            margin: 0 0 20px;
+            width: 380px;
+
+            & > a{
+               line-height:   1.4em;
+
+            }
+         }
+         & > *:nth-child(2){
+            display:block;
+         }
+			& *:nth-child(3),
+			& *:nth-child(4),
+			*:nth-child(5){
+				grid-row: initial;
+
+			}
+			& *:nth-child(4){
+
+			}
+
+
+      }
+   }
+	/* the product page - finish */
 }
+
