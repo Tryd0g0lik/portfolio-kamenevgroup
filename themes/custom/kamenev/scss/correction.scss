@@ -1,5 +1,19 @@
-
+.preview{ z-index: 3;}
+.options, .preview-pic{z-index: 4;}
 @media screen and (max-width: 1200px){
+
+	/*The  Block the header in product page - start*/
+	.gallery-btn-wrapper.gallery-btn-right{
+		right: 58%;
+		left: initial;
+		width: 100%;
+
+		& .product-btn{
+			margin: 0 auto;
+		}
+	}
+	/*The  Block the header in product page - finish*/
+
 	/* maine's page The logo   -  start */
 
 
@@ -13,8 +27,6 @@
 
 		& .menu-icon{
 			margin-top: 18px;
-	// 	    background-color: #0000006b;
-	// 	    box-shadow: 0 0 35px;
 		}
 	}
 	.page-catalog.one-sidebar,
@@ -29,20 +41,19 @@
 	{
 		&   .menu-icon{
 			margin-top: initial;
-	// 		background-color: initial;
-	// 		box-shadow: initial;
 		}
 	}
 
 	/* maine's page The logo   -  finish */
 
-	/* -- END OUTPUT from.  Block name has the work-dwetalis  -  start */
+	/* -- END OUTPUT from.  The Block name has the work-dwetalis  -  start */
 		.work-details{
 			bottom:  140px;
 		}
 
-	/* -- END OUTPUT from.  Block name has the work-dwetalis  -  finish */
-	/* The about name page. Block the footer menu location -  start   */
+	/* -- END OUTPUT from.  The Block name has the work-dwetalis  -  finish */
+
+	/* The about name page. The Block the footer menu location -  start   */
 	.footer-wrapper{
 		flex-direction: column;
 		align-items:   center;
@@ -53,9 +64,6 @@
 		grid-template-columns:  1fr 1fr 1fr;
 		grid-template-rows: 62px 1fr;
 		column-gap:  10px;
-
-
-
 		width: initial;
 
 		& > button:first-child{
@@ -104,7 +112,7 @@
 
 	}
 
-	/*  The about name page. Block the footer menu location-  finish   */
+	/*  The about name page. The Block the footer menu location-  finish   */
 
 
 	/* The Masters name page. Block the iframe - start */
@@ -117,23 +125,17 @@
 
 	/* The Masters name page. Block the iframe - finish */
 
-
-	@media screen and (min-width: 575.5px){
-		/*  The about name page. Block the footer menu location -  start   */
-		.footer-menu{
-			& .footer-menu-list{
-			&  >  li{
-				&  a{
-					line-height:   26px;
-					font-size:  initial;
-					}
-				}
-			}
-		}
-
-		/*  The about name page. Block the footer menu location -  finish   */
-
+	/* The main block with a photo product of the product page - start*/
+	.d-flex{
+		flex-wrap: wrap;
 	}
+
+	.icon-banner{
+		position: unset;
+	}
+	/* The main block with a photo product of the product page - finish*/
+
+
 
 	/* The portfolio name this of page. Bacground-imege style -start */
 	.swiper-slide{
@@ -155,13 +157,19 @@
 		flex-direction: column;
 		z-index: 5;
 	}
+	.variation-item,
+	.options{
+			line-height:   1.7em;
+	}
+
 	.options{
 			padding-top:15px;
+
 	}
 	.options,
 	.preview-pic{
 		width: 100%;
-		z-index: 5;
+// 		z-index: 5;
 	}
 
 	.default__variations{
@@ -186,6 +194,8 @@
 				font-size:  18px;
 			}
 		}
+
+
 	}
 
 	.product-button-wrap{
@@ -199,12 +209,16 @@
 	}
 	.description{
 		top: -53px;
-		right: 20px;
+		right: initial;
 		height:  50px;
 		z-index: 2;
 	}
 	.open-description{
 		top:  -58px;
+// 		right: calc(100% / 2 - 114.5px);
+		right: calc(100% / 2 - 84.5px);
+		padding-left:  30px;
+		z-index: 6;
 	}
 	.default__tekhnicheskaya-informaciya{
 
@@ -246,19 +260,25 @@
 			line-height:   38px;
 
 			&:after{
-				right:   0;
+// 				right:   calc(100% / 2 - 143.5px);
+				right:   calc(100% / 2 - 110.5px);
 				top:  -40px;
-
+				z-index: 6;
 			}
 		}
 	}
+	/* The main block with a photo product of the product page - start*/
 	.icon-banner{
 		left: 0;
 		z-index: 6;
+	margin-left: 10px;
 	}
+	/* The main block with a photo product of the product page - finish*/
+
 	.icon-banner-item:not(:last-child){
 		margin-right:  1em;
 	}
+
 
 	.default__soputstvuyuschie{
 		   justify-content: stretch;
@@ -305,11 +325,59 @@
 		}
 	}
 
+	.document__media-document,
+	.default__variations,
+	.default__price,
+	.default__title,
+	{padding: 0 0 0px 10px ;}
 
+	.visually-hidden
+	{margin: 0 0px 0px 10px ; display: none;}
+
+	.breadcrumb
+	{padding: 0 0 20px 10px ;}
 	/* the product page - finish */
-}
 
-@media screen and ( min-width: 767.01px){
+
+}
+@media (min-width: 575.5px) and (max-width: 1200px){
+
+
+		/*The  Block the header in product page - start*/
+		.gallery-btn-wrapper.gallery-btn-right{
+			right: initial;
+		}
+		/*The  Block the header in product page - finish*/
+
+
+
+		/*  The about name page. The Block the footer menu location -  start   */
+		.footer-menu{
+			& .footer-menu-list{
+			&  >  li{
+				&  a{
+					line-height:   26px;
+					font-size:  initial;
+					}
+				}
+			}
+		}
+
+		/*  The about name page. Block the footer menu location -  finish   */
+
+		/* The main block with a photo product of the product page - start*/
+		.preview-pic{
+			padding-top: 30px;}
+		.icon-banner{
+			margin-left: 10px;
+			position: absolute;
+			max-width:325px;
+		}
+		/* The main block with a photo product of the product page - finish*/
+	}
+
+@media screen and ( min-width: 767.01px) and (max-width: 1200px){
+
 	/*  The about name page. Block the footer menu location -  start  */
 	.footer-wrapper{
 		flex-direction: row;
@@ -340,6 +408,7 @@
 	}
 	.preview-pic{
 		flex-grow:  0.5;
+		min-width: 274px;
 		width: 16.3%;
 		padding-top: 25px;
 		height:auto;
@@ -387,7 +456,9 @@
    justify-items: initial;
 
    & :last-child{
-      width:   initial;
+      width: 100%;
+      max-width:   497px;
+
       height: initial;
       margin-right: 0px;
 
@@ -399,13 +470,13 @@
   }
   .file--application-pdf{
       & a{
-         width: 304px;
+         width: 497px;
          height:  30px;
          margin-right: 0px;
 
          &:after{
-            right: -61px;
-            top: -6px;
+            right: calc(100% / 2 - 240.5px);
+            top: 5px;
          }
       }
    }
@@ -458,6 +529,29 @@
 
       }
    }
+
+
 	/* the product page - finish */
 }
 
+@media (min-width: 767.01px) and (max-width: 981px){
+	/* the product page - start */
+
+	.options{width: 100%; max-width: 332px; align-items: end; display:flex;}
+
+	.default__variations{
+		flex-direction:   column; flex-wrap: wrap; width: 100%; max-width: 330px;
+		& > div{width: 100%;}
+	}
+	/* the product page - finish */
+
+
+
+}
+@media (min-width: 1200.01px){
+	.file--application-pdf a:after {
+// 	    right: 0;
+	    top: inherit;
+// 	    bottom: -45px
+	    }
+}
