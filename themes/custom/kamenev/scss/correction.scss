@@ -1,5 +1,7 @@
 .preview{ z-index: 3;}
 .options, .preview-pic{z-index: 4;}
+.description{  z-index: 3;}
+.open-description{z-index: 1;}
 @media screen and (max-width: 1200px){
 
 	/*The  Block the header in product page - start*/
@@ -155,7 +157,7 @@
 	/* the product page - start */
 	.preview{
 		flex-direction: column;
-		z-index: 5;
+		z-index: 3;
 	}
 	.variation-item,
 	.options{
@@ -211,14 +213,15 @@
 		top: -53px;
 		right: initial;
 		height:  50px;
-		z-index: 2;
+// 		z-index: 6;
+
 	}
 	.open-description{
 		top:  -58px;
 // 		right: calc(100% / 2 - 114.5px);
 		right: calc(100% / 2 - 84.5px);
 		padding-left:  30px;
-		z-index: 6;
+
 	}
 	.default__tekhnicheskaya-informaciya{
 
@@ -485,7 +488,7 @@
       top: initial;
       right:   initial;
       height: initial;
-      x-index: 1;
+
    }
    .default__soputstvuyuschie{
       justify-content: initial;
@@ -548,10 +551,42 @@
 
 
 }
-@media (min-width: 1200.01px){
-	.file--application-pdf a:after {
-// 	    right: 0;
-	    top: inherit;
-// 	    bottom: -45px
-	    }
+@media screen and (min-width: 1200.01px){
+
+	.file--application-pdf{
+		& a{
+			width: initial;
+			max-width: 304px;
+
+			&:after {
+				right: 0;
+				background-size: 30px auto;
+// 	top: inherit;
+// 	bottom: -45px
+
+		    }
+      }
+	}
+
+}
+
+@media screen and (min-width: 1300px){
+	.file--application-pdf{
+		& a{
+			&:after{
+				display: none;
+			}
+		}
+	}
+}
+@media screen and (min-width: 1700px){
+	.file--application-pdf{
+		& a{
+			&:after{
+				display: inline-block;
+				right: -43px
+
+			}
+		}
+	}
 }
