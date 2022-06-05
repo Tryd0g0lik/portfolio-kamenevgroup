@@ -259,28 +259,29 @@
   /* line 209, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__price {
     line-height: 38px;
+    margin-bottom: 87px;
   }
-  /* line 212, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 213, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .description {
     top: -53px;
     right: initial;
     height: 50px;
   }
-  /* line 219, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 220, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .open-description {
     top: -58px;
     right: calc(100% / 2 - 84.5px);
     padding-left: 30px;
   }
-  /* line 228, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 229, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__tekhnicheskaya-informaciya article {
     line-height: 38px;
   }
-  /* line 233, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 234, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__tekhnicheskaya-informaciya > div > article {
     width: 100%;
   }
-  /* line 238, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 239, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .document__media-document {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -293,53 +294,53 @@
         flex-wrap: wrap;
     justify-items: stretch;
   }
-  /* line 244, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 245, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .document__media-document :last-child {
-    width: 100%;
+    width: calc(100% - 11px);
     height: 55px;
     margin-right: 60px;
   }
-  /* line 252, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 253, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .document__media-document :last-child a:hover {
     font-size: 17px;
   }
-  /* line 259, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 260, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .file--application-pdf {
     width: 100%;
   }
-  /* line 262, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 263, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .file--application-pdf a {
     line-height: 38px;
   }
-  /* line 265, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 266, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .file--application-pdf a:after {
-    right: calc(100% / 2 - 110.5px);
+    right: calc(100% / 2 - 120.5px);
     top: -40px;
     z-index: 6;
   }
   /* The main block with a photo product of the product page - start*/
-  /* line 274, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 275, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .icon-banner {
     left: 0;
     z-index: 6;
     margin-left: 10px;
   }
   /* The main block with a photo product of the product page - finish*/
-  /* line 281, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 282, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .icon-banner-item:not(:last-child) {
     margin-right: 1em;
   }
-  /* line 286, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 287, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie {
     -webkit-box-pack: stretch;
         -ms-flex-pack: stretch;
             justify-content: stretch;
   }
-  /* line 288, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 289, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie > div {
     width: 100%;
   }
-  /* line 291, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 292, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article {
     display: -ms-grid;
     display: grid;
@@ -385,40 +386,40 @@
     -ms-grid-row: 4;
     -ms-grid-column: 2;
   }
-  /* line 299, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 300, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article > * {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
     grid-column: 1  /  4;
   }
-  /* line 303, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 304, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article > *:nth-child(1) {
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1  /  2;
     margin: initial;
   }
-  /* line 307, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 308, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article > *:nth-child(1) > a {
     line-height: 38px;
   }
-  /* line 312, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 313, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article > *:nth-child(2) {
     display: none;
   }
-  /* line 315, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 316, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article > *:nth-child(3) {
     -ms-grid-row: 3;
     -ms-grid-row-span: 1;
     grid-row: 3  /  4;
   }
-  /* line 319, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 320, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article > *:nth-child(4) {
     -ms-grid-row: 4;
     -ms-grid-row-span: 1;
     grid-row: 4  /  5;
   }
-  /* line 323, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 324, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article > *:nth-child(5) {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
@@ -426,19 +427,19 @@
     width: 100%;
     justify-items: center;
   }
-  /* line 331, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 332, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .document__media-document,
   .default__variations,
   .default__price,
   .default__title {
     padding: 0 0 0px 10px;
   }
-  /* line 337, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 340, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .visually-hidden {
     margin: 0 0px 0px 10px;
     display: none;
   }
-  /* line 340, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 343, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .breadcrumb {
     padding: 0 0 20px 10px;
   }
@@ -447,24 +448,24 @@
 
 @media (min-width: 575.5px) and (max-width: 1200px) {
   /*The  Block the header in product page - start*/
-  /* line 350, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 353, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .gallery-btn-wrapper.gallery-btn-right {
     right: initial;
   }
   /*The  Block the header in product page - finish*/
   /*  The about name page. The Block the footer menu location -  start   */
-  /* line 361, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 364, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-menu .footer-menu-list > li a {
     line-height: 26px;
     font-size: initial;
   }
   /*  The about name page. Block the footer menu location -  finish   */
   /* The main block with a photo product of the product page - start*/
-  /* line 372, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 375, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .preview-pic {
     padding-top: 30px;
   }
-  /* line 374, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 377, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .icon-banner {
     margin-left: 10px;
     position: absolute;
@@ -475,7 +476,7 @@
 
 @media screen and (min-width: 767.01px) and (max-width: 1200px) {
   /*  The about name page. Block the footer menu location -  start  */
-  /* line 385, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 388, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-wrapper {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -485,11 +486,11 @@
         -ms-flex-align: start;
             align-items: start;
   }
-  /* line 389, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 392, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-menu {
     display: initial;
   }
-  /* line 397, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 400, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .footer-menu .footer-menu-list > li a {
     line-height: 18px;
     font-size: 14px;
@@ -497,7 +498,7 @@
   }
   /*  The about name page. Block the footer menu location -  finish   */
   /* the product page - start */
-  /* line 408, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 411, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .preview {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -506,7 +507,7 @@
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  /* line 412, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 415, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .preview-pic {
     -webkit-box-flex: 0.5;
         -ms-flex-positive: 0.5;
@@ -517,26 +518,26 @@
     height: auto;
     min-height: 420px;
   }
-  /* line 423, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 426, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__variations {
     justify-items: initial;
     row-gap: initial;
     width: 100%;
   }
-  /* line 427, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 430, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__variations div {
     height: auto;
   }
-  /* line 430, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 433, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__variations > div {
     width: 50%;
   }
-  /* line 434, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 437, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__variations a {
     line-height: 45px;
     font-size: 16px;
   }
-  /* line 440, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 443, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .options {
     width: 68.6%;
     max-width: 640px;
@@ -544,12 +545,12 @@
         -ms-flex-positive: 2;
             flex-grow: 2;
   }
-  /* line 448, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 451, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__tekhnicheskaya-informaciya > div > article {
     width: initial;
     line-height: 1.4em;
   }
-  /* line 455, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 458, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .document__media-document {
     display: block;
     -webkit-box-orient: initial;
@@ -560,45 +561,45 @@
         flex-wrap: initial;
     justify-items: initial;
   }
-  /* line 461, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 464, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .document__media-document :last-child {
     width: 100%;
     max-width: 497px;
     height: initial;
     margin-right: 0px;
   }
-  /* line 468, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 471, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .document__media-document :last-child a:hover {
     font-size: initial;
   }
-  /* line 475, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 478, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .file--application-pdf a {
     width: 497px;
     height: 30px;
     margin-right: 0px;
   }
-  /* line 480, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 483, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .file--application-pdf a:after {
     right: calc(100% / 2 - 240.5px);
     top: 5px;
   }
-  /* line 487, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 490, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .description {
     top: initial;
     right: initial;
     height: initial;
   }
-  /* line 493, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 496, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie {
     -webkit-box-pack: initial;
         -ms-flex-pack: initial;
             justify-content: initial;
   }
-  /* line 495, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 498, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie > div {
     width: initial;
   }
-  /* line 498, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 501, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article {
     display: block;
     -ms-grid-columns: initial;
@@ -616,25 +617,25 @@
     -ms-grid-row: 1;
     -ms-grid-column: 1;
   }
-  /* line 506, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 509, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article * {
     grid-column: initial;
   }
-  /* line 509, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 512, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article *:nth-child(1) {
     grid-row: initial;
     margin: 0 0 20px;
     width: 380px;
   }
-  /* line 514, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 517, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article *:nth-child(1) > a {
     line-height: 1.4em;
   }
-  /* line 519, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 522, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article > *:nth-child(2) {
     display: block;
   }
-  /* line 522, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 525, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__soputstvuyuschie article *:nth-child(3),
   .default__soputstvuyuschie article *:nth-child(4),
   .default__soputstvuyuschie article *:nth-child(5) {
@@ -645,7 +646,7 @@
 
 @media (min-width: 767.01px) and (max-width: 981px) {
   /* the product page - start */
-  /* line 543, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 546, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .options {
     width: 100%;
     max-width: 332px;
@@ -656,7 +657,7 @@
     display: -ms-flexbox;
     display: flex;
   }
-  /* line 545, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 548, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__variations {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -667,7 +668,7 @@
     width: 100%;
     max-width: 330px;
   }
-  /* line 547, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 550, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .default__variations > div {
     width: 100%;
   }
@@ -675,12 +676,12 @@
 }
 
 @media screen and (min-width: 1200.01px) {
-  /* line 557, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 560, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .file--application-pdf a {
     width: initial;
     max-width: 304px;
   }
-  /* line 561, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 564, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .file--application-pdf a:after {
     right: 0;
     background-size: 30px auto;
@@ -688,14 +689,14 @@
 }
 
 @media screen and (min-width: 1300px) {
-  /* line 576, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 579, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .file--application-pdf a:after {
     display: none;
   }
 }
 
 @media screen and (min-width: 1700px) {
-  /* line 585, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
+  /* line 588, D:/OpenServer/domains/kamenevgrou.loc/themes/custom/kamenev/scss/correction.scss */
   .file--application-pdf a:after {
     display: inline-block;
     right: -43px;

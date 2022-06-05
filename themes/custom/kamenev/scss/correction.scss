@@ -208,6 +208,7 @@
 
 	.default__price{
 		line-height:   38px;
+		margin-bottom: 87px;
 	}
 	.description{
 		top: -53px;
@@ -242,7 +243,7 @@
 		justify-items: stretch;
 
 		& :last-child{
-			width:   100%;
+			width:   calc(100% - 11px);
 			height:  55px;
 	      margin-right: 60px;
 
@@ -264,7 +265,7 @@
 
 			&:after{
 // 				right:   calc(100% / 2 - 143.5px);
-				right:   calc(100% / 2 - 110.5px);
+				right:   calc(100% / 2 - 120.5px);
 				top:  -40px;
 				z-index: 6;
 			}
@@ -333,6 +334,8 @@
 	.default__price,
 	.default__title,
 	{padding: 0 0 0px 10px ;}
+
+
 
 	.visually-hidden
 	{margin: 0 0px 0px 10px ; display: none;}
